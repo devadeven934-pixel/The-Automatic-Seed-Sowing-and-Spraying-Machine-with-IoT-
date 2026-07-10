@@ -1,0 +1,394 @@
+[
+  {
+    "type": "power",
+    "label": "Battery to 5V Buck Conv VIN+",
+    "source": "li_ion_battery_pack",
+    "target": "buck_converter_5v",
+    "current": "2A",
+    "voltage": "12V"
+  },
+  {
+    "type": "power",
+    "label": "Battery to 5V Buck Conv VIN-",
+    "source": "li_ion_battery_pack",
+    "target": "buck_converter_5v",
+    "current": "2A",
+    "voltage": "12V"
+  },
+  {
+    "type": "power",
+    "label": "5V Buck Conv to ESP32 VIN",
+    "source": "buck_converter_5v",
+    "target": "esp32_mcu",
+    "current": "500mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "5V Buck Conv to ESP32 GND",
+    "source": "buck_converter_5v",
+    "target": "esp32_mcu",
+    "current": "500mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "5V Buck Conv to L298N +5V logic",
+    "source": "buck_converter_5v",
+    "target": "motor_driver_l298n",
+    "current": "100mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "5V Buck Conv to L298N GND",
+    "source": "buck_converter_5v",
+    "target": "motor_driver_l298n",
+    "current": "100mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "5V Buck Conv to Servo VCC",
+    "source": "buck_converter_5v",
+    "target": "seed_sowing_servo",
+    "current": "1A",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "5V Buck Conv to Servo GND",
+    "source": "buck_converter_5v",
+    "target": "seed_sowing_servo",
+    "current": "1A",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "5V Buck Conv to Relay VCC",
+    "source": "buck_converter_5v",
+    "target": "pump_relay_module",
+    "current": "100mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "5V Buck Conv to Relay GND",
+    "source": "buck_converter_5v",
+    "target": "pump_relay_module",
+    "current": "100mA",
+    "voltage": "5V"
+  },
+  {
+    "type": "power",
+    "label": "ESP32 3V3 to Encoder VCC",
+    "source": "esp32_mcu",
+    "target": "rotary_encoder",
+    "current": "50mA",
+    "voltage": "3.3V"
+  },
+  {
+    "type": "power",
+    "label": "ESP32 GND to Encoder GND",
+    "source": "esp32_mcu",
+    "target": "rotary_encoder",
+    "current": "50mA",
+    "voltage": "3.3V"
+  },
+  {
+    "type": "power",
+    "label": "ESP32 3V3 to Soil Sensor VCC",
+    "source": "esp32_mcu",
+    "target": "soil_moisture_sensor",
+    "current": "30mA",
+    "voltage": "3.3V"
+  },
+  {
+    "type": "power",
+    "label": "ESP32 GND to Soil Sensor GND",
+    "source": "esp32_mcu",
+    "target": "soil_moisture_sensor",
+    "current": "30mA",
+    "voltage": "3.3V"
+  },
+  {
+    "type": "power",
+    "label": "ESP32 3V3 to GPS VCC",
+    "source": "esp32_mcu",
+    "target": "gps_module",
+    "current": "50mA",
+    "voltage": "3.3V"
+  },
+  {
+    "type": "power",
+    "label": "ESP32 GND to GPS GND",
+    "source": "esp32_mcu",
+    "target": "gps_module",
+    "current": "50mA",
+    "voltage": "3.3V"
+  },
+  {
+    "type": "power",
+    "label": "ESP32 3V3 to Ultrasonic VCC",
+    "source": "esp32_mcu",
+    "target": "ultrasonic_sensor",
+    "current": "20mA",
+    "voltage": "3.3V"
+  },
+  {
+    "type": "power",
+    "label": "ESP32 GND to Ultrasonic GND",
+    "source": "esp32_mcu",
+    "target": "ultrasonic_sensor",
+    "current": "20mA",
+    "voltage": "3.3V"
+  },
+  {
+    "type": "power",
+    "label": "Battery to L298N +12V Motor",
+    "source": "li_ion_battery_pack",
+    "target": "motor_driver_l298n",
+    "current": "2A",
+    "voltage": "12V"
+  },
+  {
+    "type": "power",
+    "label": "Battery to L298N GND Motor",
+    "source": "li_ion_battery_pack",
+    "target": "motor_driver_l298n",
+    "current": "2A",
+    "voltage": "12V"
+  },
+  {
+    "type": "power",
+    "label": "L298N Out1 to Left Motor",
+    "source": "motor_driver_l298n",
+    "target": "drive_motor_left",
+    "current": "1A",
+    "voltage": "12V"
+  },
+  {
+    "type": "power",
+    "label": "L298N Out2 to Left Motor",
+    "source": "motor_driver_l298n",
+    "target": "drive_motor_left",
+    "current": "1A",
+    "voltage": "12V"
+  },
+  {
+    "type": "power",
+    "label": "L298N Out3 to Right Motor",
+    "source": "motor_driver_l298n",
+    "target": "drive_motor_right",
+    "current": "1A",
+    "voltage": "12V"
+  },
+  {
+    "type": "power",
+    "label": "L298N Out4 to Right Motor",
+    "source": "motor_driver_l298n",
+    "target": "drive_motor_right",
+    "current": "1A",
+    "voltage": "12V"
+  },
+  {
+    "type": "power",
+    "label": "Battery to Linear Actuator +",
+    "source": "li_ion_battery_pack",
+    "target": "plough_linear_actuator",
+    "current": "2A",
+    "voltage": "12V"
+  },
+  {
+    "type": "power",
+    "label": "Battery to Linear Actuator -",
+    "source": "li_ion_battery_pack",
+    "target": "plough_linear_actuator",
+    "current": "2A",
+    "voltage": "12V"
+  },
+  {
+    "type": "power",
+    "label": "Battery to Relay COM (switched side)",
+    "source": "li_ion_battery_pack",
+    "target": "pump_relay_module",
+    "current": "2A",
+    "voltage": "12V"
+  },
+  {
+    "type": "power",
+    "label": "Relay NO to Water Pump",
+    "source": "pump_relay_module",
+    "target": "water_pump",
+    "current": "1A",
+    "voltage": "12V"
+  },
+  {
+    "type": "power",
+    "label": "Battery to Water Pump GND",
+    "source": "li_ion_battery_pack",
+    "target": "water_pump",
+    "current": "1A",
+    "voltage": "12V"
+  },
+  {
+    "type": "power",
+    "label": "Battery to Solenoid Valve +",
+    "source": "li_ion_battery_pack",
+    "target": "solenoid_valve",
+    "current": "500mA",
+    "voltage": "12V"
+  },
+  {
+    "type": "power",
+    "label": "Battery to Solenoid Valve -",
+    "source": "li_ion_battery_pack",
+    "target": "solenoid_valve",
+    "current": "500mA",
+    "voltage": "12V"
+  },
+  {
+    "type": "data",
+    "label": "Left Motor FWD",
+    "source": "esp32_mcu",
+    "target": "motor_driver_l298n",
+    "protocol": "gpio",
+    "sourcePin": "GPIO16",
+    "targetPin": "IN1"
+  },
+  {
+    "type": "data",
+    "label": "Left Motor REV",
+    "source": "esp32_mcu",
+    "target": "motor_driver_l298n",
+    "protocol": "gpio",
+    "sourcePin": "GPIO17",
+    "targetPin": "IN2"
+  },
+  {
+    "type": "data",
+    "label": "Right Motor FWD",
+    "source": "esp32_mcu",
+    "target": "motor_driver_l298n",
+    "protocol": "gpio",
+    "sourcePin": "GPIO18",
+    "targetPin": "IN3"
+  },
+  {
+    "type": "data",
+    "label": "Right Motor REV",
+    "source": "esp32_mcu",
+    "target": "motor_driver_l298n",
+    "protocol": "gpio",
+    "sourcePin": "GPIO19",
+    "targetPin": "IN4"
+  },
+  {
+    "type": "data",
+    "label": "Left Motor PWM",
+    "source": "esp32_mcu",
+    "target": "motor_driver_l298n",
+    "protocol": "pwm",
+    "sourcePin": "GPIO26",
+    "targetPin": "ENA"
+  },
+  {
+    "type": "data",
+    "label": "Right Motor PWM",
+    "source": "esp32_mcu",
+    "target": "motor_driver_l298n",
+    "protocol": "pwm",
+    "sourcePin": "GPIO27",
+    "targetPin": "ENB"
+  },
+  {
+    "type": "data",
+    "label": "Servo Control",
+    "source": "esp32_mcu",
+    "target": "seed_sowing_servo",
+    "protocol": "pwm",
+    "sourcePin": "GPIO13",
+    "targetPin": "SIGNAL"
+  },
+  {
+    "type": "data",
+    "label": "Encoder CLK",
+    "source": "rotary_encoder",
+    "target": "esp32_mcu",
+    "protocol": "gpio",
+    "sourcePin": "CLK",
+    "targetPin": "GPIO32"
+  },
+  {
+    "type": "data",
+    "label": "Encoder DT",
+    "source": "rotary_encoder",
+    "target": "esp32_mcu",
+    "protocol": "gpio",
+    "sourcePin": "DT",
+    "targetPin": "GPIO33"
+  },
+  {
+    "type": "data",
+    "label": "Limit Switch Input",
+    "source": "plough_limit_switch",
+    "target": "esp32_mcu",
+    "protocol": "gpio",
+    "sourcePin": "COM",
+    "targetPin": "GPIO23"
+  },
+  {
+    "type": "data",
+    "label": "Relay Control",
+    "source": "esp32_mcu",
+    "target": "pump_relay_module",
+    "protocol": "gpio",
+    "sourcePin": "GPIO25",
+    "targetPin": "IN"
+  },
+  {
+    "type": "data",
+    "label": "Soil Moisture Analog",
+    "source": "soil_moisture_sensor",
+    "target": "esp32_mcu",
+    "protocol": "analog",
+    "sourcePin": "AOUT",
+    "targetPin": "GPIO34"
+  },
+  {
+    "type": "data",
+    "label": "GPS TX to ESP32 RX (using other UART)",
+    "source": "gps_module",
+    "target": "esp32_mcu",
+    "protocol": "uart",
+    "sourcePin": "TX",
+    "targetPin": "GPIO16"
+  },
+  {
+    "type": "data",
+    "label": "GPS RX to ESP32 TX (using other UART)",
+    "source": "gps_module",
+    "target": "esp32_mcu",
+    "protocol": "uart",
+    "sourcePin": "RX",
+    "targetPin": "GPIO17"
+  },
+  {
+    "type": "data",
+    "label": "Ultrasonic Trig",
+    "source": "esp32_mcu",
+    "target": "ultrasonic_sensor",
+    "protocol": "gpio",
+    "sourcePin": "GPIO4",
+    "targetPin": "Trig"
+  },
+  {
+    "type": "data",
+    "label": "Ultrasonic Echo",
+    "source": "ultrasonic_sensor",
+    "target": "esp32_mcu",
+    "protocol": "gpio",
+    "sourcePin": "Echo",
+    "targetPin": "GPIO5"
+  }
+]

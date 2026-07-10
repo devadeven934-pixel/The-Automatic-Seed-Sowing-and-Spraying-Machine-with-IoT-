@@ -1,0 +1,267 @@
+[
+  {
+    "label": "M3 bolts",
+    "source": "chassis_base_plate",
+    "target": "chassis_side_panel_left"
+  },
+  {
+    "label": "M3 bolts",
+    "source": "chassis_base_plate",
+    "target": "chassis_side_panel_right"
+  },
+  {
+    "label": "M3 bolts",
+    "source": "chassis_base_plate",
+    "target": "chassis_front_panel"
+  },
+  {
+    "label": "M3 bolts",
+    "source": "chassis_base_plate",
+    "target": "chassis_rear_panel"
+  },
+  {
+    "label": "M3 bolts",
+    "source": "chassis_side_panel_left",
+    "target": "chassis_front_panel"
+  },
+  {
+    "label": "M3 bolts",
+    "source": "chassis_side_panel_left",
+    "target": "chassis_rear_panel"
+  },
+  {
+    "label": "M3 bolts",
+    "source": "chassis_side_panel_right",
+    "target": "chassis_front_panel"
+  },
+  {
+    "label": "M3 bolts",
+    "source": "chassis_side_panel_right",
+    "target": "chassis_rear_panel"
+  },
+  {
+    "label": "M3 bolts",
+    "source": "chassis_base_plate",
+    "target": "drive_motor_mount_left"
+  },
+  {
+    "label": "M3 bolts",
+    "source": "chassis_base_plate",
+    "target": "drive_motor_mount_right"
+  },
+  {
+    "label": "set screws",
+    "source": "motor_shaft_coupler_left",
+    "target": "wheel_axle_shaft_left"
+  },
+  {
+    "label": "set screws",
+    "source": "motor_shaft_coupler_right",
+    "target": "wheel_axle_shaft_right"
+  },
+  {
+    "label": "keyed/set screw attachment",
+    "source": "wheel_axle_shaft_left",
+    "target": "wheel_left_front"
+  },
+  {
+    "label": "keyed/set screw attachment",
+    "source": "wheel_axle_shaft_left",
+    "target": "wheel_left_rear"
+  },
+  {
+    "label": "keyed/set screw attachment",
+    "source": "wheel_axle_shaft_right",
+    "target": "wheel_right_front"
+  },
+  {
+    "label": "keyed/set screw attachment",
+    "source": "wheel_axle_shaft_right",
+    "target": "wheel_right_rear"
+  },
+  {
+    "label": "M3 bolts",
+    "source": "chassis_base_plate",
+    "target": "seed_hopper"
+  },
+  {
+    "label": "drop-in, rotary mechanism",
+    "source": "seed_hopper",
+    "target": "seed_metering_plate"
+  },
+  {
+    "label": "M3 bolts",
+    "source": "chassis_base_plate",
+    "target": "seed_sowing_servo_mount"
+  },
+  {
+    "label": "direct interface",
+    "source": "seed_metering_plate",
+    "target": "seed_funnel"
+  },
+  {
+    "label": "M3 bolts",
+    "source": "chassis_base_plate",
+    "target": "rotary_encoder_mount"
+  },
+  {
+    "label": "M3 bolts",
+    "source": "tilling_blade_attachment",
+    "target": "tilling_blade"
+  },
+  {
+    "label": "M3 bolts",
+    "source": "chassis_base_plate",
+    "target": "plough_linear_actuator_mount"
+  },
+  {
+    "label": "actuator rod connection",
+    "source": "plough_linear_actuator_mount",
+    "target": "tilling_blade_attachment"
+  },
+  {
+    "label": "M3 bolts",
+    "source": "chassis_base_plate",
+    "target": "plough_limit_switch_mount"
+  },
+  {
+    "label": "straps/brackets",
+    "source": "chassis_base_plate",
+    "target": "liquid_tank_spraying"
+  },
+  {
+    "label": "threaded connection",
+    "source": "liquid_tank_spraying",
+    "target": "water_hose_connectors"
+  },
+  {
+    "label": "threaded connection",
+    "source": "spraying_nozzle",
+    "target": "water_hose_connectors"
+  },
+  {
+    "label": "M3 bolts",
+    "source": "chassis_base_plate",
+    "target": "water_pump_mount"
+  },
+  {
+    "label": "barbed connection",
+    "source": "water_hose_connectors",
+    "target": "water_hose_tubing"
+  },
+  {
+    "label": "hose clamp (inlet/outlet)",
+    "source": "water_hose_tubing",
+    "target": "water_pump_mount"
+  },
+  {
+    "label": "hose clamp (inlet/outlet)",
+    "source": "water_hose_tubing",
+    "target": "solenoid_valve_mount"
+  },
+  {
+    "label": "M3 bolts",
+    "source": "chassis_base_plate",
+    "target": "solenoid_valve_mount"
+  },
+  {
+    "label": "M3 bolts",
+    "source": "chassis_base_plate",
+    "target": "soil_moisture_sensor_housing"
+  },
+  {
+    "label": "M3 bolts",
+    "source": "chassis_front_panel",
+    "target": "ultrasonic_sensor_mount"
+  },
+  {
+    "label": "M3 standoffs",
+    "source": "chassis_base_plate",
+    "target": "esp32_mcu_mount"
+  },
+  {
+    "label": "M3 standoffs",
+    "source": "chassis_base_plate",
+    "target": "motor_driver_l298n_mount"
+  },
+  {
+    "label": "M3 standoffs",
+    "source": "chassis_base_plate",
+    "target": "pump_relay_module_mount"
+  },
+  {
+    "label": "M3 standoffs",
+    "source": "chassis_base_plate",
+    "target": "gps_module_mount"
+  },
+  {
+    "label": "mount",
+    "source": "drive_motor_mount_left",
+    "target": "drive_motor_left"
+  },
+  {
+    "label": "mount",
+    "source": "drive_motor_mount_right",
+    "target": "drive_motor_right"
+  },
+  {
+    "label": "mount",
+    "source": "seed_sowing_servo_mount",
+    "target": "seed_sowing_servo"
+  },
+  {
+    "label": "mount",
+    "source": "rotary_encoder_mount",
+    "target": "rotary_encoder"
+  },
+  {
+    "label": "mount",
+    "source": "plough_linear_actuator_mount",
+    "target": "plough_linear_actuator"
+  },
+  {
+    "label": "mount",
+    "source": "plough_limit_switch_mount",
+    "target": "plough_limit_switch"
+  },
+  {
+    "label": "mount",
+    "source": "water_pump_mount",
+    "target": "water_pump"
+  },
+  {
+    "label": "mount",
+    "source": "solenoid_valve_mount",
+    "target": "solenoid_valve"
+  },
+  {
+    "label": "mount",
+    "source": "soil_moisture_sensor_housing",
+    "target": "soil_moisture_sensor"
+  },
+  {
+    "label": "mount",
+    "source": "ultrasonic_sensor_mount",
+    "target": "ultrasonic_sensor"
+  },
+  {
+    "label": "mount",
+    "source": "esp32_mcu_mount",
+    "target": "esp32_mcu"
+  },
+  {
+    "label": "mount",
+    "source": "motor_driver_l298n_mount",
+    "target": "motor_driver_l298n"
+  },
+  {
+    "label": "mount",
+    "source": "pump_relay_module_mount",
+    "target": "pump_relay_module"
+  },
+  {
+    "label": "mount",
+    "source": "gps_module_mount",
+    "target": "gps_module"
+  }
+]
